@@ -1,18 +1,32 @@
 body {
   background-color: lightblue;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1 {
-color: [black];
-text-align: center;
+  color: black;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+h1: hover{
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .assign {
-display: flex;
-padding: 10px;
-margin: 10px;
-background-color: lavender;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 20%;
+  box-shadow: 8px 8px white;
+  background-color: lavender;
 }
 
 .assign img {
@@ -26,8 +40,5 @@ a {
  color: midnightblue; /* pick the color you want */
 }
 
-.assign {
- border-radius: 25px; /* curved corners */
-}
 
 
