@@ -42,6 +42,7 @@ div{
     background: rgb(94, 102, 174);
     color:rgb(97, 120, 55)
 }
+/* table/rows */
 td{
     border: 1px solid black;
     text-align: center;
