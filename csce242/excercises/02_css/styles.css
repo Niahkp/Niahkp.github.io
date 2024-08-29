@@ -1,0 +1,43 @@
+
+body{
+    background:violet;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div{
+    background:white;
+    padding: 5px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+/*navigation*/
+
+#main-nav ul{
+    padding-left:0; /*removes left padding*/
+    width:fit-content;
+    margin:auto;
+}
+#main-nav li{
+    list-style: none; /*no bullets*/
+    display:inline-block; /*appears on one line*/
+}
+#main-nav a{
+    text-decoration: none; /*no underline*/
+    background: #FF8DA1;
+    color: white;
+    padding:5px;
+    margin:5px;
+    border-radius:2px;
+}
+
+#main-nav a: hover{
+    background: black;
+    color:blue
+}
+/*typography*/
+h1{
+    color:red;
+}
+p{
+    color:blue;
+}

@@ -1,0 +1,63 @@
+body{
+    background: url(images/vacation.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div{
+    background: rgb(106, 144, 183);
+    padding: 5px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+#main-header{
+    background-color:skyblue;
+    border-radius: 5px;
+}
+
+/* navigation*/
+#main-nav ul{
+    padding-left:0;
+    width:fit-content;
+    margin:auto;
+}
+
+#main-nav li{
+    list-style-type:none;
+    display:inline-block;
+}
+
+#main-nav a{
+    text-decoration: none;
+    background:rgb(88, 101, 222);
+    color:white;
+    padding:5px;
+    margin:5px;
+    border-radius:2px;
+}
+
+#main-nav a:hover{
+    background: rgb(94, 102, 174);
+    color:rgb(97, 120, 55)
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 1px solid rgba(143, 180, 200, 0.737);
+    background-color: rgba(130, 192, 226, 0.737);
+}
+
+img{
+    padding: 5px;
+    border: 3px solid black;
+}
