@@ -11,6 +11,11 @@ div{
     border-radius: 10px;
 }
 
+#main-nav li{
+    padding-left:0;
+    width:fit-content;
+    margin:auto;
+}
 #main-nav a{
     text-decoration: none;
     color: rgb(232, 212, 98);
