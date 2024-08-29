@@ -6,7 +6,12 @@ body{
 div{
     background: rgb(62, 80, 62);
     padding: 5px;
-    margin: 20px;
+    margin: 20px auto;
     width: 60px;
     border-radius: 10px;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: rgb(232, 212, 98);
 }
