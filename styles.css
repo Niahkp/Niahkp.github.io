@@ -2,11 +2,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(141, 172, 141);
     text-align: center;
+
     color: white;
 }
 
 div{
-    background: rgb(62, 80, 62);
+    /*background: rgb(62, 80, 62);*/
     padding: 5px;
     margin: 20px auto;
     width: 60%;
@@ -24,4 +25,49 @@ div{
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
+}
+
+#second{
+    color: white;
+    padding:5px;
+    margin:5px;
+    border-radius:2px;
+}
+#second a{
+    text-decoration:none; /*no underline*/ 
+    color:rgb(232, 212, 98);
+}
+
+.col1of2{
+    background-color: rgb(62, 80, 62);
+    padding:7px;
+    margin: 7px;
+    border-radius:2px;
+}
+
+
+@media only screen and (min-width: 900px){
+    .col1of3,
+    .col1of2{
+        flex: 1;
+    }
+
+ 
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%; 
+        height: 80%;
+        padding: 0px 5px;
+
+    }
+    img{
+        display: flex;
+        width: fit-content;
+    }
+
+   
+
+    
 }
