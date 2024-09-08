@@ -6,11 +6,18 @@ body{
     color: white;
 }
 
-div{
+#main-div{
     padding: 5px;
     margin: 20px auto;
     width: 60%;
     border-radius: 10px;
+    background-color: rgb(62, 80, 62);
+}
+#assign,
+#pro{
+    background-color: rgb(62, 80, 62);
+    margin: 10px;
+
 }
 
 #main-nav li{
@@ -26,13 +33,16 @@ div{
     border-radius: 2px;
 }
 
-#second{
+#second,
+#third{
     color: white;
     padding:5px;
     margin:5px;
     border-radius:2px;
 }
-#second a{
+
+#second a, 
+#third a{
     text-decoration:none; /*no underline*/ 
     color:rgb(232, 212, 98);
 }
@@ -43,28 +53,50 @@ div{
     margin: 7px;
     border-radius:2px;
 }
+.col1of3{
+    position: relative;
+    
+}
+.col2of2{
+    background-color: rgb(62, 80, 62);
+    padding:7px;
+    margin: 7px;
+    border-radius:2px;
+}
+img{
+    max-width: 100%;
+}
+.flex-container{
+    background-color: rgb(62, 80, 62);
+}
 
 
 @media only screen and (min-width: 900px){
     .col1of3,
-    .col1of2{
+    .col1of2,
+    .col2of2,
+    .col2of3{
         flex: 1;
     }
 
  
     .flex-container {
-        display: flex;
+       /* display: flex;*/
         justify-content: center;
         align-items: center;
-        width: 80%; 
-        height: 80%;
+        /*width: 30%;*/
+        height: 70%;
         padding: 0px 5px;
+        /*flex:1;*/
+        display: flex;
+        
 
     }
     img{
         display: flex;
         width: fit-content;
     }
+
 
    
 

@@ -1,0 +1,129 @@
+/*structure*/
+/*REQUIREMENT ON ASSIGNMENT*/
+/*Be sure to do this*/
+:root {
+    --main-background-color: skyblue;
+    --gallety-back: aliceblue;
+}
+
+body{
+    background-color: skyblue;
+}
+
+#content{
+    background: white;
+}
+
+.columns-all{
+    display: flex;
+}
+
+img{
+    max-width: 100%;
+}
+/*Header*/
+#main-header{
+    position: relative;
+}
+
+#main-img{
+    margin-right: 5px;
+}
+/*gallery*/
+#gallery section{
+
+}
+
+/*login menu*/
+#login-menu{
+    width:fit-content;
+    /*where its located on the screen*/
+    position: absolute;
+    top:3%;
+    right:3%;
+}
+
+#login-menu ul{
+    padding-left: 0;
+    display: none;
+
+}
+
+#login-menu li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+
+#login-menu a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+#login-menu a:hover{
+    text-decoration: underline;
+
+}
+
+/*ball*/
+#ball{
+    width: 50px;
+    height: 50px;
+    color:blueviolet;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes bounce{
+    0%{
+        background: blue;
+        top:0
+    }
+    25%{
+        background: pink;
+        
+    }
+    50%{
+        background: yellow;
+        top:100px;
+    }
+    75%{
+        background: red;
+    }
+    100%{
+        background: green;
+        top: 0;
+    }
+}
+/*larger resolutions*/
+@media only screen and (min-width:600px) {
+    #content{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .columns{
+        display: flex;
+    }
+
+    #settings{
+        display:none;
+    }
+
+    #login-menu ul{
+        display: flex;
+    }
+    .one{
+        flex:1;
+    }
+
+    #gallery{
+        flex-wrap: wrap;
+    }
+
+    #gallery section{
+        flex:30%;
+    }
+}
