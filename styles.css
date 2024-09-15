@@ -39,7 +39,6 @@ body{
     padding:5px;
     margin:5px;
     border-radius:2px;
-    display: flex;
 }
 
 #second a, 
@@ -50,8 +49,8 @@ body{
 
 .col1of2{
     background-color: rgb(62, 80, 62);
-    padding:5px;
-    margin: 3px;
+    padding:7px;
+    margin: 7px;
     border-radius:2px;
 }
 .col1of3{
@@ -82,7 +81,7 @@ img{
 
  
     .flex-container {
-        display: flex;
+       /* display: flex;*/
         justify-content: center;
         align-items: center;
         /*width: 30%;*/
