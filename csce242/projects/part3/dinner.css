@@ -1,0 +1,156 @@
+body{
+  background-color: lightyellow;
+  font-family: cursive;
+}
+#content{
+  background: lightyellow;
+}
+
+main-header{
+    position: relative;
+    color: black;
+  }
+  #main-header h1{
+    text-align: center;
+  }
+  #main-header a{
+    text-decoration: none;
+    color: black;
+  }
+  .columns-all{
+    display: flex;
+ }
+  
+  #main-img{
+    margin-right: 5px;
+  }
+
+  .col1of2{
+    background-color: lightblue;
+    padding:5px;
+    margin:5px;
+    border-radius:2px;
+}
+
+.col1of3{
+    background-color: rgb(155, 155, 255);
+    padding:5px;
+    margin:5px;
+    border-radius:2px;
+}
+  
+  /*top menu*/
+  #top-menu{
+    width:fit-content;
+    /*where its located on the screen*/
+    position: absolute;
+    top:3%;
+    right:3%;
+  }
+  
+  #top-menu ul{
+    padding-left: 0;
+    display: none;
+  
+  }
+  
+  #top-menu li{
+    list-style-type: none;
+    padding: 5px;
+  }
+  
+  #top-menu a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  #top-menu a:hover{
+    text-decoration: underline;
+  
+  }
+
+  #lunch-menu{
+    width:fit-content;
+    /*where its located on the screen*/
+    position: absolute;
+    top:3%;
+    right:3%;
+  }
+
+  #lunch-menu ul{
+    padding-left: 0;
+    display: none;
+  
+  }
+  
+  #lunch-menu li{
+    list-style-type: none;
+    padding: 5px;
+  }
+  
+  #lunch-menu a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #lunch-menu a:hover{
+    text-decoration: underline;
+  
+  }
+  
+  /*nav*/
+  #main-nav ul {
+    padding-left:0;
+  }
+  
+  #main-nav li {
+    list-style:none;
+    background: gray;
+    padding: 5px;
+    margin: 0.5;
+    border-bottom: solid black;
+  }
+  
+#main-nav a{
+    text-decoration: none;
+    color: black;
+    display:block;
+  }
+
+  /*larger resolutions*/
+@media only screen and (min-width:600px){
+    #content{
+      width: 100%;
+      margin: auto;
+  }
+
+  .flex-container{
+    display:flex;
+}
+
+.col1of2, 
+.col1of3{
+    flex: 1;
+}
+  
+  .columns{
+    display: flex;
+  }
+  #top-menu ul{
+    display: flex;
+  }
+  #lunch-menu ul{
+    display: flex;
+  }
+  
+  #main-nav ul{
+    display: flex;
+  }
+  
+  #main-nav li{
+    flex: 1;
+  }
+  #main-nav ul{
+    display:flex;
+  }
+}

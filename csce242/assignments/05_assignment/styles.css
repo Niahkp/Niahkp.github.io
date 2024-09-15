@@ -1,0 +1,58 @@
+body{
+    background-color: lightyellow;
+}
+#content{
+    background: lightyellow;
+  }
+  
+  .columns-all{
+     display: flex;
+  }
+  .col1of2{
+    background-color: lightblue;
+    padding:5px;
+    margin:25px auto;
+    border-radius:5px;
+    text-align: center;
+}
+
+.col1of3{
+    background-color: rgb(155, 155, 255);
+    padding:5px;
+    margin:5px;
+    border-radius:5px;
+}
+
+
+#pic {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20%;
+}
+#slider {
+    margin-top: 20px;
+    position: relative;
+    bottom: 20%;
+    right: 15%;
+}
+
+    /*larger resolutions*/
+    @media only screen and (min-width:600px){
+        #content{
+          width: 100%;
+          margin: auto;
+      }
+      
+      .columns{
+        display: flex;
+      }
+
+      .flex-container{
+        display:flex;
+    }
+        .col1of2, 
+        .col1of3{
+            flex: 1;
+        }
+    }

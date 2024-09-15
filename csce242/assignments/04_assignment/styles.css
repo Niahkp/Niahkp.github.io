@@ -1,9 +1,10 @@
+
 body{
     background-color: white;
 }
 
 #content{
-    background: black;
+   background: black;
 }
 
 .columns-all{
@@ -45,6 +46,10 @@ img{
     color: white;
     border: solid white;
 }
+.col1of3 a{
+    text-decoration: none;
+    color:white;
+}
 
 .col2of2{
     background-color: rgb(236, 236, 236);
@@ -59,7 +64,10 @@ img{
     color: white;
     padding:0;
     margin:30%;
-    
+}
+.col2of3 a{
+    text-decoration: none;
+    color: white;
 }
 
 .col3of3{
@@ -69,6 +77,10 @@ img{
     margin-right: 60%;
     margin-left: 10%;
     border: solid white;
+}
+.col3of3 a{
+    text-decoration: none;
+    color:white;
 }
 .pic{
     padding:5px;
