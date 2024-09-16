@@ -1,9 +1,12 @@
+:root{
+  --main-yellow: lightyellow;
+}
 body{
-  background-color: lightyellow;
+  background-color: var(--main-yellow);
   font-family: cursive;
 }
 #content{
-    background: lightyellow;
+    background: var(--main-yellow);
   }
   
   .columns-all{

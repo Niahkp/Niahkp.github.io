@@ -1,9 +1,14 @@
+:root{
+  --main-yellow: lightyellow;
+  --mid-body: rgb(80, 80, 80);
+  --inside-mid-body: gray;
+}
 body{
-  background-color: lightyellow;
+  background-color: var(--main-yellow);
   font-family: cursive;
 }
 #content{
-  background: lightyellow;
+  background: var(--main-yellow);
 }
 h1{
   text-align: center;
@@ -28,7 +33,7 @@ main-header{
   }
 
   .col1of2{
-    background-color: rgb(80, 80, 80);
+    background-color: var(--mid-body);
     padding:5px;
     margin:5px;
     border-radius:2px;
@@ -36,7 +41,7 @@ main-header{
 }
 
 .col1of3{
-    background-color:gray;
+    background-color:var(--inside-mid-body);
     padding:5px;
     margin:5px;
     border-radius:2px;
