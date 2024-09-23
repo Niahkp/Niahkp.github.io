@@ -35,6 +35,10 @@ nav {
     display: flex;
     align-items: center;
 }
+.logo a{
+    color: white;
+    font-size: medium;
+}
 
 .logo img {
     width: 50px;
