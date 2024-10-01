@@ -53,8 +53,10 @@ body{
     margin: 7px;
     border-radius:2px;
 }
-.col1of3{
+.col1of3,
+.col2of3{
     position: relative;
+    width: 100%;
     
 }
 .col2of2{
@@ -68,33 +70,38 @@ img{
 }
 .flex-container{
     background-color: rgb(62, 80, 62);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
 @media only screen and (min-width: 900px){
-    .col1of3,
     .col1of2,
-    .col2of2,
-    .col2of3{
-        flex: 1;
+    .col2of2{
+        flex: 1 1 calc(25% - 14px);
+        max-width: calc(25% - 14px);
     }
 
  
     .flex-container {
        /* display: flex;*/
-        justify-content: center;
+       /* justify-content: center;
         align-items: center;
         /*width: 30%;*/
-        height: 70%;
+       /* height: 70%;
         padding: 0px 5px;
         /*flex:1;*/
-        display: flex;
+       /*display: flex;
+        flex-wrap: wrap;*/
+        justify-content: space-between;
+        align-items: flex-start;
         
 
     }
     img{
-        display: flex;
-        width: fit-content;
+        max-width: 100%;
+        height: auto;
     }
 
 

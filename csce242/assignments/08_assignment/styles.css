@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightyellow;
+}
+
+h1, h2 {
+    color: rgb(227, 97, 195);
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.image img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform;
+}
+
+#description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}

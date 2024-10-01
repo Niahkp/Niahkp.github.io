@@ -1,0 +1,49 @@
+/* structure */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    margin: 20px;
+}
+
+h1{
+    color: rgb(124, 215, 246);
+    text-align: center;
+}
+
+h2{
+    color: rgb(185, 149, 239);
+    text-align: center;
+}
+
+.container {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+canvas {
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Button */
+button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input {
+    width: 50px;
+    padding: 2px;
+    text-align: center;
+}
+
