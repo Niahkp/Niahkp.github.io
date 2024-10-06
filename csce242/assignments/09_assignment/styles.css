@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #bird-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .bird-card {
+    background-color: #a9d1e9;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .bird-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .bird-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .modal-content img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .modal-content .info {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  h2 {
+    color: #ff4444;
+  }
