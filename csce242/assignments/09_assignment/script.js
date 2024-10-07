@@ -34,7 +34,7 @@ const birds = [
   new Bird('Hummingbird', '2.5 inches', '3-5 years', 'Nectar', 'Trees', "They're nicknamed 'Hummers'", 'hummingbird.jpeg'),
   new Bird('Blue Jay', '9.8-11.8 inches', '7 years', 'Insects', 'Forests', 'They can mimic hawks to warn other jays of their presence.', 'bluejay.jpeg'),
   new Bird('Cardinal', '8.3-9.1 inches', '3-5 years', 'Seeds', 'Woodlands', 'Cardinals get their red feathers from food ', 'cardinal.jpeg'),
-  new Bird('Robin', '7.9-11 inches', '2 years', 'Insects', 'Robins have about 2,900 feathers', 'robinbird.jpeg')
+  new Bird('Robin', '7.9-11 inches', '2 years', 'Insects', 'Robins have about 2,900 feathers', 'rob.jpeg'),
 ];
 
 function loadBirds() {
