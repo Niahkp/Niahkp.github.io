@@ -3,14 +3,14 @@ body {
     text-align: center;
   }
   
-  #bird-container {
+  #birds {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
   }
   
-  .bird-card {
+  .bird-box {
     background-color: lightpink;
     margin: 10px;
     padding: 10px;
@@ -20,13 +20,9 @@ body {
     transition: transform 0.3s;
   }
   
-  .bird-card img {
+  .bird-box img {
     width: 100%;
     height: auto;
-  }
-  
-  .bird-card:hover {
-    transform: scale(1.05);
   }
   
   .modal-content {
