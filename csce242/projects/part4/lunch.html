@@ -30,12 +30,12 @@
 
 
      <!-- Main Section -->
-     <main>
+     <!-- <main>
         <h1>Lunch Menu</h1>
         <hr>
-        <div class="menu-grid">
+        <div class="menu-grid"> -->
             <!--Starters-->
-            <div class="menu-item">
+            <!-- <div class="menu-item">
                 <img src="images/salad.jpeg" alt="Salad">
                 <h2>Salad</h2>
                 <p>Fresh hand tossed salad with your choice of dressing.</p>
@@ -54,9 +54,9 @@
                 <img src="images/chilliecheesfries-new.jpg" alt="Salad">
                 <h2>Chilli Cheese Fries</h2>
                 <p>A basket of hot fries with homemade chilli, cheese, and jalapenos.</p>
-            </div>
+            </div> -->
             <!--Main Courses-->
-            <div class="menu-item">
+           <!-- <div class="menu-item">
                 <img src="images/burger.jpeg" alt="Main Courses">
                 <h2>Bacon Cheeseburger</h2>
                 <p>Juicy burger, served with bacon, lettuce, tomato, onions, ketchup, mustard, and mayo.</p>
@@ -75,9 +75,9 @@
                 <img src="images/pattymelt-new.jpg" alt="Main Courses">
                 <h2>Patty Melt</h2>
                 <p>Patty Melt served on sandwhich bread with steak, cheese, and onions.</p>
-            </div>
+            </div>  -->
             <!--Dessert-->
-            <div class="menu-item">
+            <!--<div class="menu-item">
                 <img src="images/red-velvet copy.jpg" alt="Dessert">
                 <h2>Red Velvet Cake</h2>
                 <p>Homemade delicious, moist red velvet cake with cream cheese icing.</p>
@@ -96,9 +96,9 @@
                 <img src="images/cheesecke.jpeg" alt="Dessert">
                 <h2>Cheesecake</h2>
                 <p>Delightful fresh cheesecake.</p>
-            </div>
+            </div>  -->
              <!--Beverages-->
-        <div class="menu-item">
+        <!--<div class="menu-item">
             <img src="images/h20.jpeg" alt="Dessert">
             <h2>Water</h2>
         </div>
@@ -123,8 +123,28 @@
             <h2>Sweet Tea</h2>
         </div>
         </div>
-    </main>              
+    </main>  -->  
+    
+    <main>
+        <h1>Lunch Menu</h1>
+        <hr>
+        <div class="menu-grid" id="menuGrid">
+            <!-- Menu items will be loaded here by JavaScript -->
+        </div>
+    </main>   
 
-    <script src="script.js"></script>
+    <!-- Modal -->
+<div id="itemModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <img id="modalImage" src="" alt="" />
+        <p id="modalDescription"></p>
+        <p id="modalPrice"></p>
+        <p id="modalOptions"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
