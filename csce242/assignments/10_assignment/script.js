@@ -12,21 +12,19 @@ const showIcecream = async() => {
 
     icecreamData.forEach((cream)=>{
        
+        //dont use the pics with -2 on the end
         if(!cream.image.includes('-2')){
             const section = document.createElement("section");
             section.classList.add("cream");
 
-            // Create the image element
             const img = document.createElement("img");
             img.src = `${baseUrl}${cream.image}`;
             img.alt = cream.name;
 
-            // Create the overlay div
             const overlay = document.createElement("div");
             overlay.classList.add("overlay");
             overlay.textContent = cream.name;
 
-            // Append the image and overlay
             section.appendChild(img);
             section.appendChild(overlay);
             
