@@ -144,18 +144,39 @@ hr{
 }
 
 @media (max-width: 700px) {
-    .review {
-        width: calc(50% - 20px);
+    .review-container {
+        display: block; 
     }
 
-    .top-section h1 {
-        font-size: 36px;
+    .review {
+        width: 100%;          
+        text-align: left;      
+        padding: 20px;      
+        margin-bottom: 20px;   
+        background-color: var(--inside-mid-body); 
+        box-sizing: border-box; 
+        border-radius: 10px;  
+    }
+
+    .review img {
+        float: left;          
+        margin-right: 15px;    
+        width: 80px;           
+        height: 80px;
+    }
+
+    .review h3 {
+        font-size: 18px;       
+    }
+
+    .review p {
+        font-size: 16px;       
+        margin-top: 5px;
     }
 
     .nav-links {
         flex-direction: column;
         max-height: 0;
-
         display: flex;
         width: 100%;
         overflow: hidden;
