@@ -1,0 +1,149 @@
+:root{
+    --mid-body: rgb(80, 80, 80);
+    --inside-mid-body: gray;
+  }
+/* structure*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: rgb(20, 20, 20); 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Header*/
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    color: white;
+    font-size: medium;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    color: rgb(255, 193, 7);
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    font-size: 18px;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: rgb(255, 193, 7);
+}
+
+/* Menu Toggle */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+    transition: 0.4s;
+}
+
+/* Main Section */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-image: url('images/new-cater.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.col1of2{
+    background-color: var(--mid-body);
+    padding:5px;
+    margin:20px auto;
+    border-radius:10px;
+    text-align: center;
+}
+
+.col1of3{
+    background-color: var(--inside-mid-body);
+    padding:5px;
+    margin:5px;
+    border-radius:25px;
+    img{
+        border-radius: 25px;
+    }
+}
+
+    @media only screen and (min-width:600px){
+        .flex-container{
+            display:flex;
+        }
+            .col1of2, 
+            .col1of3{
+                flex: 1;
+            }
+
+    
+    }
+
+    @media screen and (max-width: 768px) {
+        .nav-links {
+            flex-direction: column;
+            max-height: 0;        
+            display: flex;
+            width: 100%;
+            overflow: hidden;
+            background-color: black;
+        }
+    
+        .nav-links.active {
+            max-height: 300px; 
+        }   
+
+        .menu-toggle {
+            display: flex;
+        }
+    }
